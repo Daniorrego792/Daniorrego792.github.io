@@ -3,57 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMPARCIAL | Alta Costura - Medellín</title>
+    <title>Imparcial | Alta Costura en Medellín</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Encabezado Minimalista -->
-    <header class="header-luxury">
-        <div class="logo-container">
-            <img src="https://i.imgur.com/p3AuZQN.png" alt="IMPARCIAL" class="logo">
-        </div>
-        <nav class="nav-luxury">
-            <a href="#home">HOME</a>
-            <a href="#products">SHOP</a>
-            <a href="#collections">COLLECTIONS</a>
+    <!-- Encabezado con logo -->
+    <header>
+        <img src="https://i.imgur.com/p3AuZQN.png" alt="Logo Imparcial" class="logo">
+        <nav>
+            <a href="#inicio">INICIO</a>
+            <a href="#productos">PRODUCTOS</a>
+            <a href="#contacto">CONTACTO</a>
         </nav>
     </header>
 
-    <!-- Portada Hero con Botón -->
-    <section id="home" class="hero-portfolio" style="background-image: url('https://i.imgur.com/zTAT6xj.jpg')">
-        <div class="hero-overlay"></div>
+    <!-- Portada -->
+    <section id="inicio" class="hero" style="background-image: url('https://i.imgur.com/zTAT6xj.jpg')">
         <div class="hero-content">
-            <h1>IMPARCIAL</h1>
-            <p class="hero-subtitle">Alta costura con esencia de Medellín</p>
-            <a href="#products" class="shop-now-btn">SHOP NOW <i class="fas fa-arrow-right"></i></a>
+            <h2>ALTA COSTURA HECHA EN MEDELLÍN</h2>
+            <p>Elegancia atemporal con identidad local</p>
         </div>
     </section>
 
-    <!-- Sección de Productos (oculta inicialmente) -->
-    <section id="products" class="products-section">
-        <h2>OUR COLLECTION</h2>
-        <div class="product-grid-luxury">
+    <!-- Productos -->
+    <section id="productos" class="products">
+        <h2>NUESTRA COLECCIÓN</h2>
+        <div class="product-grid">
             <!-- Producto 1 -->
-            <div class="product-card">
+            <div class="product-item">
                 <img src="https://i.imgur.com/EXncMq5.jpg" alt="Gorra Medusa VII">
-                <div class="product-info">
-                    <h3>Medusa VII</h3>
-                    <p class="category">HATS</p>
-                    <p class="price">$120.000 COP</p>
-                </div>
+                <h3>MEDUSA VII</h3>
+                <p class="category">GORRAS</p>
+                <p>Comodidad y frescura</p>
             </div>
-            <!-- Más productos... -->
+            <!-- Producto 2 -->
+            <div class="product-item">
+                <img src="https://i.imgur.com/wrzKsJk.jpg" alt="Hercules VII">
+                <h3>HERCULES VII</h3>
+                <p class="category">GORRAS</p>
+                <p>Comodidad y frescura</p>
+            </div>
+            <!-- Producto 3 -->
+            <div class="product-item">
+                <img src="https://i.imgur.com/QvUmkuF.jpg" alt="Zeus VII">
+                <h3>ZEUS VII</h3>
+                <p class="category">GORRAS</p>
+                <p>Comodidad y frescura</p>
+            </div>
+            <!-- Producto 4 -->
+            <div class="product-item">
+                <img src="https://i.imgur.com/QKYevuf.jpg" alt="Epifania VII">
+                <h3>EPIFANIA VII</h3>
+                <p class="category">CAMISETAS</p>
+                <p>Oversize con detalles a mano</p>
+            </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="luxury-footer">
-        <p>© 2024 IMPARCIAL. Todos los derechos reservados.</p>
-        <div class="social-icons">
-            <a href="https://instagram.com/ImparcialCLTH"><i class="fab fa-instagram"></i></a>
-            <a href="https://wa.me/573174556789"><i class="fab fa-whatsapp"></i></a>
+    <!-- Pie de página con redes -->
+    <footer id="contacto">
+        <div class="social-links">
+            <a href="https://instagram.com/ImparcialCLTH" target="_blank">INSTAGRAM</a>
+            <a href="https://wa.me/573174556789" target="_blank">ASESORÍA PERSONALIZADA</a>
         </div>
+        <p>© 2024 IMPARCIAL. TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
 </body>
 </html>
