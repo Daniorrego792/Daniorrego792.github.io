@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+/* Encabezado */
+header {
+    background-color: #556B2F; /* Verde olivo */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Portada */
+.hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    color: #ddd;
+    font-size: 1.2em;
+}
+
+/* Productos */
+.products {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.products h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 0 50px;
+}
+
+.product-item {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-item .category {
+    color: #556B2F; /* Verde olivo */
+    font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
